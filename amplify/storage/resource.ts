@@ -6,5 +6,6 @@ export const storage = defineStorage({
     'aws/*': [
       allow.guest.to(['read']),
       allow.authenticated.to(['read', 'write', 'delete'])
+       ]
   })
 });
